@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+
+        android:layout_width="343dp"
+        android:layout_height="288dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/prepose4"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:text="1. 상체를 화면에 맞추고 정면을 바라봐주세요.\n2. 팔꿈치를 접고 양팔을 바깥쪽으로 벌려주세요.\n3. 양팔을 앞으로 모아주세요.\n4. 20초동안 반복해서 동작해주세요\n\n*위 그림을 참고하여 카메라에 자세를 취하면 교정이 시작됩니다."
+        android:fontFamily="@font/frefont"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/close"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/frefont"
+        android:textSize="18sp"
+        android:text="Close" />
+
+</LinearLayout>

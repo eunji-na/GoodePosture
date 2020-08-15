@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8055A6E1</color>
+    <color name="colorPrimaryDark">#803394DB</color>
+    <color name="colorAccent">#77b8e7</color>
+
+    <color name="color1">#80B1D7F1</color>
+    <color name="color2">#8078B8E7</color>
+    <color name="color3">#8055A6E1</color>
+    <color name="color4">#803394DB</color>
+    <color name="color5">#FFFFFF</color>
+
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorOnboardingIndicatorInactive">#72BCF7</color>
+
+    <color name="tfe_color_primary">#ffa800</color>
+    <color name="tfe_color_primary_dark">#ff6f00</color>
+    <color name="tfe_color_accent">#425066</color>
+
+    <color name="tfe_semi_transparent">#66000000</color>
+</resources>

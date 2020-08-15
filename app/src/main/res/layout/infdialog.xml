@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:text="본 서비스 'Good Posture'는 다음과 같은 서비스를 제공합니다.\n- 자세 교정 서비스\n- 알람 서비스\n본 서비스는 사용자의 정보를 저장하지 않습니다.\n본 서비스는 운영상 또는 기술상의 필요에 따라 제공하고 있는 서비스를 변경할 수 있습니다.\n본 서비스는 연중무휴, 1일 24시간 제공함을 원칙으로 합니다.\n본 서비스는 스마트폰에 내장된 카메라를 이용하여 회원의 자세 교정 동작을 인식합니다.\n회원은 소지한 핸드폰에 부착되어 있는 후면 카메라를 통해 자세 교정 서비스를 이용할 수 있습니다.\n회원의 체형, 옷차림, 자세 교정 시 배경, 핸드폰 기종 등에 따라 인식 기능이 인식하는 자세에 차이가 있을 수 있으며, 이에 따라 동작 인식에 제한이 생길 수 있습니다.\n자세 교정 서비스는 카메라의 구도, 위치 등의 이유로 인식이 불안정 할 수 있습니다.\n알람 서비스는 회원이 원하는 시간에 맞추어 진행 할 수 있습니다.\n"
+        android:fontFamily="@font/frefont"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/confirm_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/frefont"
+        android:textSize="18sp"
+        android:text="CONFIRM" />
+
+</LinearLayout>

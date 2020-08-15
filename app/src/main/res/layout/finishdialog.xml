@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="20dp"
+        android:text="수고하셨습니다.\n다시 운동을 하시려면 Repeat 버튼을\n충분히 운동을 하셨다면\nClose 버튼을 눌러주세요."
+        android:fontFamily="@font/frefont"
+        android:textSize="18sp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    <Button
+        android:id="@+id/frepeat"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/frefont"
+        android:textSize="18sp"
+        android:text="Repeat" />
+
+    <Button
+        android:id="@+id/fclose"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/frefont"
+        android:textSize="18sp"
+        android:text="Close" />
+
+    </LinearLayout>
+
+</LinearLayout>
